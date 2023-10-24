@@ -1,0 +1,63 @@
+.App {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  flex-direction: column;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.title{
+  display: flex;
+  background-color: rgb(145, 176, 253);
+  height: 260px;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.title input{
+  width: 200px;
+  height: 40px;
+  border: 2px solid;
+  border-radius: 10px;
+  font-size: 18px;
+  padding-left: 8px;
+}
+
+.title button{
+  width: 180px;
+  height: 30px;
+  margin: 12px;
+  border: 2px solid;
+  border-radius: 8px;
+  font-size: 18px;
+  padding-left: 8px;
+  background-color: rgb(126, 255, 94);
+}
+
+.Display{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  
+}
+.Display h1{
+  margin: 0;
+  font-size: 40px;
+}
+
+
+.Display h4{
+  margin: 0;
+  font-size: 25px;
+}
+
+.Display img{
+  width: 200px;
+}
